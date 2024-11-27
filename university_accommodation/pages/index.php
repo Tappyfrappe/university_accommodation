@@ -21,7 +21,7 @@ include('../config.php');
             <li><a href="view_students.php">View Students</a></li>
             <li><a href="add_student.php">Insert New Student</a></li>
             <li><a href="update_student.php">Update Student</a></li> <!-- Example banner number for testing -->
-            <li><a href="delete_student.php">Delete Student</a></li> <!-- Example banner number for testing -->
+            <li><a href="../scripts/delete_student.php">Delete Student</a></li> <!-- Example banner number for testing -->
             <li><a href="view_leases.php">View Leases</a></li>
             <li><a href="view_apartment_inspections.php">View Apartment Inspections</a></li>
         </ul>
