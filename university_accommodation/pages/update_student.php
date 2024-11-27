@@ -47,7 +47,7 @@ if (isset($_GET['banner_number'])) {
 
     <form method="POST" action="../scripts/update_student.php">
         <label for="banner_number">Banner Number:</label>
-        <input type="text" id="banner_number" name="banner_number" value="<?php echo $banner_number ?? ''; ?>" readonly><br><br>
+        <input type="text" id="banner_number" name="banner_number" value="<?php echo $banner_number ?? ''; ?>" required><br><br>
 
         <label for="first_name">First Name:</label>
         <input type="text" id="first_name" name="first_name" value="<?php echo $first_name ?? ''; ?>" required><br><br>
