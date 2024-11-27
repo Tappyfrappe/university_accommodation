@@ -1,6 +1,7 @@
 <?php
 // Include config file to get database connection
-include('config.php');
+include(__DIR__ . '/../config.php');
+
 
 // Create connection
 $conn = getDBConnection();
